@@ -17,7 +17,9 @@ $overlay:rgba(0,0,0,1);
 
 body{
 	background-color: $body;
-	font-family: 'Encode Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 nav{
