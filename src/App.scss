@@ -31,6 +31,19 @@ p {
 	padding: 20px;
 }
 
+.App-column {
+	width: 60px;
+}
+
+.App-gutter {
+	width: 32px;
+}
+
+.App-column-box {
+	height: 200px;
+	background-color: #FF7E7E;
+}
+
 .App-flexbox {
 	display: flex;
 	flex-wrap: wrap;

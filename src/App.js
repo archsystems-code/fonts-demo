@@ -6,6 +6,7 @@ import Colors from './components/Colors/index';
 import AdditionalBrandColors from './components/AdditionalBrandColors/index';
 import CallsToAction from './components/CallsToAction/index';
 import Fonts from './components/Fonts/index';
+import GridComponent from './components/GridComponent/index';
 import './App.css';
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <AdditionalBrandColors />
         <CallsToAction />
         <Fonts />
+        <GridComponent />
       </Grid>
   </div>;
 }
