@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans|Hind+Siliguri|Montserrat");
 body {
   font-family: 'Encode Sans', sans-serif;
@@ -65,24 +66,33 @@ hr {
   height: 70px;
   margin-right: 35px;
   border-radius: 50%; }
-  .App-color-circle.bg-grey {
-    background-color: #F3F2F2; }
-  .App-color-circle.title-grey {
-    background-color: #434343; }
-  .App-color-circle.light-text-grey {
-    background-color: #7D7C7C; }
-  .App-color-circle.highlight-purple {
-    background-color: #AD619D; }
-  .App-color-circle.cta-green {
-    background-color: #61A60D; }
-  .App-color-circle.image-overlay-grey {
-    background-color: #2D2C2C; }
-  .App-color-circle.pink {
-    background-color: #DD4E75; }
-  .App-color-circle.beige {
-    background-color: #F3DBB7; }
-  .App-color-circle.purple-two {
-    background-color: #9D4976; }
+
+.App-color-circle.bg-grey {
+  background-color: #F3F2F2; }
+
+.App-color-circle.title-grey {
+  background-color: #434343; }
+
+.App-color-circle.light-text-grey {
+  background-color: #7D7C7C; }
+
+.App-color-circle.highlight-purple {
+  background-color: #AD619D; }
+
+.App-color-circle.cta-green {
+  background-color: #61A60D; }
+
+.App-color-circle.image-overlay-grey {
+  background-color: #2D2C2C; }
+
+.App-color-circle.pink {
+  background-color: #DD4E75; }
+
+.App-color-circle.beige {
+  background-color: #F3DBB7; }
+
+.App-color-circle.purple-two {
+  background-color: #9D4976; }
 
 .App-slider {
   font-size: 45px;
@@ -131,8 +141,41 @@ table {
   width: 100%;
   text-align: left;
   color: #434343; }
-  table tr th, table tr td {
-    padding: 20px;
-    border-right: 1px solid #F1F1F1; }
-  table tr.bg-grey {
-    background-color: #F3F2F2; }
+
+table tr th, table tr td {
+  padding: 20px;
+  border-right: 1px solid #F1F1F1; }
+
+table tr.bg-grey {
+  background-color: #F3F2F2; }
+
+ul {
+  list-style: none;
+  padding-left: 17px; }
+
+ul li {
+  font-size: 16px; }
+
+ul li::before {
+  content: "•";
+  color: #9D4976;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-right: 15px; }
+
+ol {
+  list-style: none;
+  counter-reset: li; }
+
+ol li {
+  counter-increment: li;
+  font-size: 16px; }
+
+ol li::before {
+  content: counter(li);
+  color: #9D4976;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-right: 15px; }

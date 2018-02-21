@@ -184,3 +184,35 @@ table {
 	}
 }
 
+ul {
+	list-style: none;
+	padding-left: 17px;
+	li {
+		font-size: 16px;
+		&::before {
+			content: "•";
+			color: $purple-two;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1em;
+			padding-right: 15px;
+		}
+	}
+}
+
+ol {
+	list-style: none;
+	counter-reset: li;
+	li {
+		counter-increment: li;
+		font-size: 16px;
+		&::before {
+			content: counter(li);
+			color: $purple-two;
+			display: inline-block; 
+			width: 1em;
+			margin-left: -1em;
+			padding-right: 15px;
+		}
+	}
+}

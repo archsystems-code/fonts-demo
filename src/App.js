@@ -7,6 +7,7 @@ import AdditionalBrandColors from './components/AdditionalBrandColors/index';
 import CallsToAction from './components/CallsToAction/index';
 import Fonts from './components/Fonts/index';
 import GridComponent from './components/GridComponent/index';
+import ListElements from './components/ListElements/index';
 import './App.css';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <CallsToAction />
         <Fonts />
         <GridComponent />
+        <ListElements />
       </Grid>
   </div>;
 }
