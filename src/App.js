@@ -8,6 +8,7 @@ import CallsToAction from './components/CallsToAction/index';
 import Fonts from './components/Fonts/index';
 import GridComponent from './components/GridComponent/index';
 import ListElements from './components/ListElements/index';
+import Header from './components/Header/index';
 import './App.css';
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <GridComponent />
         <ListElements />
       </Grid>
+      <Header />
   </div>;
 }
 
