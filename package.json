@@ -1,10 +1,10 @@
 {
-  "name": "fonts-demo",
+  "name": "web-style-guide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "jquery": "^3.3.1",
     "node-sass": "^4.7.2",
+    "normalize.css": "^8.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
@@ -17,7 +17,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "yarn run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "deploy": "yarn run build && surge -p build -d asi-fonts-demo.surge.sh",
+    "deploy": "yarn run build && surge -p build -d asi-web-style-guide.surge.sh",
     "eject": "react-scripts eject"
   }
 }
