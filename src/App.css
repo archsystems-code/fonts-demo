@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Encode+Sans|Hind+Siliguri|Montserrat");
 body {
   font-family: 'Encode Sans', sans-serif;
-  color: #7D7C7C;
   font-size: 13px;
   line-height: 26px;
   font-weight: 400;
@@ -53,24 +52,33 @@ hr {
   height: 70px;
   margin-right: 35px;
   border-radius: 50%; }
-  .App-color-circle.bg-grey {
-    background-color: #F3F2F2; }
-  .App-color-circle.title-grey {
-    background-color: #434343; }
-  .App-color-circle.light-text-grey {
-    background-color: #7D7C7C; }
-  .App-color-circle.highlight-purple {
-    background-color: #AD619D; }
-  .App-color-circle.cta-green {
-    background-color: #61A60D; }
-  .App-color-circle.image-overlay-grey {
-    background-color: #2D2C2C; }
-  .App-color-circle.pink {
-    background-color: #DD4E75; }
-  .App-color-circle.beige {
-    background-color: #F3DBB7; }
-  .App-color-circle.purple-two {
-    background-color: #9D4976; }
+
+.App-color-circle.bg-grey {
+  background-color: #F3F2F2; }
+
+.App-color-circle.title-grey {
+  background-color: #434343; }
+
+.App-color-circle.light-text-grey {
+  background-color: #7D7C7C; }
+
+.App-color-circle.highlight-purple {
+  background-color: #AD619D; }
+
+.App-color-circle.cta-green {
+  background-color: #61A60D; }
+
+.App-color-circle.image-overlay-grey {
+  background-color: #2D2C2C; }
+
+.App-color-circle.pink {
+  background-color: #DD4E75; }
+
+.App-color-circle.beige {
+  background-color: #F3DBB7; }
+
+.App-color-circle.purple-two {
+  background-color: #9D4976; }
 
 .App-slider {
   font-size: 45px;
@@ -87,19 +95,11 @@ hr {
   color: #434343;
   margin: 0; }
 
-.App-subtitle {
-  font-size: 18px;
-  line-height: 28px;
-  font-family: 'Hind Siliguri';
-  font-weight: 500;
-  color: #7D7C7C;
-  margin: 0; }
-
-.App-featured-ctas {
-  font-size: 16px;
-  line-height: 26px;
-  font-family: 'Hind Siliguri';
-  font-weight: bold;
+.App-tile-titles {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Montserrat';
+  font-weight: 200;
   margin: 0; }
 
 .App-bio-titles-and-names {
@@ -109,12 +109,28 @@ hr {
   font-weight: 400;
   margin: 0; }
 
+.App-subtitle {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: 'Hind Siliguri';
+  font-weight: 500;
+  margin: 0; }
+
+.App-featured-ctas {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Hind Siliguri';
+  font-weight: bold;
+  margin: 0; }
+
 table {
   width: 100%;
   text-align: left;
   color: #434343; }
-  table tr th, table tr td {
-    padding: 20px;
-    border-right: 1px solid #F3F2F2; }
-  table tr.bg-grey {
-    background-color: #F3F2F2; }
+
+table tr th, table tr td {
+  padding: 20px;
+  border-right: 1px solid #F1F1F1; }
+
+table tr.bg-grey {
+  background-color: #F3F2F2; }

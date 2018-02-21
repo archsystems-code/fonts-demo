@@ -11,7 +11,6 @@ $purple-two: #9D4976;
 
 body {
 	font-family: 'Encode Sans', sans-serif;
-	color: $light-text-grey;
 	font-size: 13px; 
 	line-height: 26px;
 	font-weight: 400;
@@ -111,6 +110,7 @@ hr {
 	font-weight: 200;
 	margin: 0;
 }
+
 .App-title {
 	font-size: 35px;
 	line-height: 45px;
@@ -120,20 +120,11 @@ hr {
 	margin: 0;
 }
 
-.App-subtitle {
-	font-size: 18px;
-	line-height: 28px;
-	font-family: 'Hind Siliguri';
-	font-weight: 500;
-	color: $light-text-grey;
-	margin: 0;
-}
-
-.App-featured-ctas {
-	font-size: 16px;
-	line-height: 26px;
-	font-family: 'Hind Siliguri';
-	font-weight: bold;
+.App-tile-titles {
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Montserrat';
+	font-weight: 200;
 	margin: 0;
 }
 
@@ -145,6 +136,22 @@ hr {
 	margin: 0;
 }
 
+.App-subtitle {
+	font-size: 18px;
+	line-height: 28px;
+	font-family: 'Hind Siliguri';
+	font-weight: 500;
+	margin: 0;
+}
+
+.App-featured-ctas {
+	font-size: 16px;
+	line-height: 26px;
+	font-family: 'Hind Siliguri';
+	font-weight: bold;
+	margin: 0;
+}
+
 table {
 	width: 100%;
 	text-align: left;
@@ -152,7 +159,7 @@ table {
 	tr {
 		th,td {
 			padding: 20px;
-			border-right: 1px solid $background-grey;
+			border-right: 1px solid #F1F1F1;
 		}
 		&.bg-grey {
 			background-color: $background-grey;

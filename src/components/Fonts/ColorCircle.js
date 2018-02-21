@@ -5,8 +5,10 @@ const ColorCircle = props => {
     width: '15px',
     height: '15px',
     borderRadius: '50%',
-    border: '1px solid grey',
-    backgroundColor: props.color
+    border: '1px solid #DBDBDB',
+    backgroundColor: props.color,
+    float: 'left',
+    marginRight: '5px'
   }
   return <div style={circleStyle} />
 }
