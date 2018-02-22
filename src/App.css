@@ -66,24 +66,33 @@ hr {
   height: 70px;
   margin-right: 35px;
   border-radius: 50%; }
-  .App-color-circle.bg-grey {
-    background-color: #F3F2F2; }
-  .App-color-circle.title-grey {
-    background-color: #434343; }
-  .App-color-circle.light-text-grey {
-    background-color: #7D7C7C; }
-  .App-color-circle.highlight-purple {
-    background-color: #AD619D; }
-  .App-color-circle.cta-green {
-    background-color: #61A60D; }
-  .App-color-circle.image-overlay-grey {
-    background-color: #2D2C2C; }
-  .App-color-circle.pink {
-    background-color: #DD4E75; }
-  .App-color-circle.beige {
-    background-color: #F3DBB7; }
-  .App-color-circle.purple-two {
-    background-color: #9D4976; }
+
+.App-color-circle.bg-grey {
+  background-color: #F3F2F2; }
+
+.App-color-circle.title-grey {
+  background-color: #434343; }
+
+.App-color-circle.light-text-grey {
+  background-color: #7D7C7C; }
+
+.App-color-circle.highlight-purple {
+  background-color: #AD619D; }
+
+.App-color-circle.cta-green {
+  background-color: #61A60D; }
+
+.App-color-circle.image-overlay-grey {
+  background-color: #2D2C2C; }
+
+.App-color-circle.pink {
+  background-color: #DD4E75; }
+
+.App-color-circle.beige {
+  background-color: #F3DBB7; }
+
+.App-color-circle.purple-two {
+  background-color: #9D4976; }
 
 .App-slider {
   font-size: 45px;
@@ -132,35 +141,110 @@ table {
   width: 100%;
   text-align: left;
   color: #434343; }
-  table tr th, table tr td {
-    padding: 20px;
-    border-right: 1px solid #F1F1F1; }
-  table tr.bg-grey {
-    background-color: #F3F2F2; }
+
+table tr th, table tr td {
+  padding: 20px;
+  border-right: 1px solid #F1F1F1; }
+
+table tr.bg-grey {
+  background-color: #F3F2F2; }
 
 ul {
   list-style: none;
   padding-left: 17px; }
-  ul li {
-    font-size: 16px; }
-    ul li::before {
-      content: "•";
-      color: #9D4976;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-      padding-right: 15px; }
+
+ul li {
+  font-size: 16px; }
+
+ul li::before {
+  content: "•";
+  color: #9D4976;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-right: 15px; }
 
 ol {
   list-style: none;
   counter-reset: li; }
-  ol li {
-    counter-increment: li;
-    font-size: 16px; }
-    ol li::before {
-      content: counter(li);
-      color: #9D4976;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-      padding-right: 15px; }
+
+ol li {
+  counter-increment: li;
+  font-size: 16px; }
+
+ol li::before {
+  content: counter(li);
+  color: #9D4976;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-right: 15px; }
+
+.App-header-example {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 20px;
+  border-top: 1px solid #F3F2F2;
+  border-bottom: 2px solid #CBCBCB; }
+
+.App-header-example .App-searchbar-logo {
+  position: absolute;
+  top: 33px;
+  left: 275px;
+  font-size: 15px;
+  fill: #61A60D; }
+
+.App-logo {
+  height: 40px; }
+
+.App-searchbar {
+  margin: 0 30px;
+  border: 1px solid #D4D2D2;
+  border-radius: 4px;
+  flex-grow: 1;
+  text-indent: 30px;
+  font-size: 12px; }
+
+.App-shopping-cart-logo,
+.App-profile-logo {
+  font-size: 30px;
+  align-self: center;
+  margin: 0 10px; }
+
+.App-profile-logo {
+  border-radius: 50%;
+  border: 1px solid black; }
+
+.my-asi {
+  align-self: center;
+  color: #7D7C7C; }
+
+.App-header-divider {
+  width: 1px;
+  height: 25px;
+  background-color: #7D7C7C;
+  align-self: center;
+  margin: 0 15px; }
+
+.App-menu {
+  font-size: 35px;
+  align-self: center;
+  color: #434343; }
+
+.App-secondary-nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center; }
+
+.App-secondary-nav-logo {
+  align-self: center;
+  font-size: 25px;
+  color: #61A60D; }
+
+.App-secondary-nav-text-cta {
+  align-self: center;
+  margin: 5px 15px 0 15px;
+  text-transform: uppercase;
+  font-size: 14px; }

@@ -216,3 +216,83 @@ ol {
 		}
 	}
 }
+
+.App-header-example {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding: 20px;
+	border-top: 1px solid $background-grey;
+	border-bottom: 2px solid #CBCBCB;
+	.App-searchbar-logo {
+		position: absolute;
+		top: 33px;
+		left: 275px;
+		font-size: 15px;
+		fill: $cta-green;
+	}
+}
+
+.App-logo {
+	height: 40px;
+}
+
+.App-searchbar {
+	margin: 0 30px;
+	border: 1px solid #D4D2D2;
+	border-radius: 4px;
+	flex-grow: 1;
+	text-indent: 30px;
+	font-size: 12px;
+}
+
+.App-shopping-cart-logo, 
+.App-profile-logo {
+	font-size: 30px;
+	align-self: center;
+	margin: 0 10px;
+}
+
+.App-profile-logo {
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.my-asi {
+	align-self: center;
+	color: $light-text-grey;
+}
+
+.App-header-divider {
+	width: 1px;
+	height: 25px;
+	background-color: $light-text-grey;
+	align-self: center;
+	margin: 0 15px;
+}
+
+.App-menu {
+	font-size: 35px;
+	align-self: center;
+	color: $title-grey;
+}
+
+.App-secondary-nav {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	justify-content: center;
+}
+
+.App-secondary-nav-logo{
+	align-self: center;
+	font-size: 25px;
+	color: $cta-green;
+}
+
+.App-secondary-nav-text-cta {
+	align-self: center;
+	margin: 5px 15px 0 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
