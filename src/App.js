@@ -10,6 +10,7 @@ import GridComponent from './components/GridComponent/index';
 import ListElements from './components/ListElements/index';
 import Header from './components/Header/index';
 import HeaderSticky from './components/HeaderSticky/index';
+import Footer from './components/Footer/index';
 import './App.css';
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
       </Grid>
       <Header />
       <HeaderSticky />
+      <Footer />
   </div>;
 }
 

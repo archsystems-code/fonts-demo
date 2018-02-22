@@ -35,6 +35,9 @@ p {
 .App-half {
   width: 50%; }
 
+.App-third {
+  width: 33%; }
+
 .dark {
   background-color: #2D2C2C;
   color: white; }
@@ -89,7 +92,6 @@ hr {
   font-size: 45px;
   line-height: 55px;
   font-family: 'Montserrat';
-  font-weight: 200;
   margin: 0; }
 
 .App-title {
@@ -97,7 +99,6 @@ hr {
   line-height: 45px;
   font-family: 'Montserrat';
   font-weight: 200;
-  color: #434343;
   margin: 0; }
 
 .App-tile-titles {
@@ -169,7 +170,7 @@ ol {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  padding: 20px 20px 5px 20px;
+  padding: 20px 20px 10px 20px;
   border-top: 1px solid #F3F2F2;
   border-bottom: 2px solid #CBCBCB; }
   .App-header-example .App-searchbar-logo {
@@ -232,3 +233,70 @@ ol {
   margin: 5px 15px 0 15px;
   text-transform: uppercase;
   font-size: 14px; }
+
+.App-purple {
+  background-color: #AD619D; }
+
+.App-footer-text {
+  color: white; }
+  .App-footer-text h1 {
+    font-size: 28px; }
+  .App-footer-text .text-bold {
+    font-weight: bold; }
+  .App-footer-text .text-light {
+    font-weight: 200; }
+
+footer .App-flexbox {
+  justify-content: space-around; }
+
+.App-footer-inputs {
+  height: 55px;
+  margin-top: 10px; }
+  .App-footer-inputs input {
+    width: 200px;
+    height: 100%;
+    margin-right: 10px;
+    text-indent: 15px;
+    background-color: #8F4F81;
+    border: none;
+    border-radius: 4px; }
+    .App-footer-inputs input::placeholder {
+      color: white;
+      opacity: 1; }
+  .App-footer-inputs button {
+    width: 150px; }
+
+.App-footer-container {
+  flex-wrap: wrap; }
+
+.App-social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .App-social-icons h5 {
+    color: #AD619D;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center; }
+
+.App-social-icon-box {
+  padding: 8px 12px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+  background-color: black; }
+  .App-social-icon-box svg {
+    align-self: center;
+    vertical-align: inherit !important; }
+
+.App-callout-text {
+  margin-left: 5px; }
+
+.text-green {
+  color: #61A60D; }
+
+.text-center {
+  text-align: center; }
+
+.App-footer-icons {
+  font-size: 50px; }
