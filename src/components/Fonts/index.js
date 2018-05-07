@@ -14,7 +14,7 @@ const Fonts = () => {
               <h4 className="App-subtitle">Montserrat</h4>
             </th>
             <th>
-              <h4 className="App-subtitle">Siliguri</h4>
+              <h4 className="App-subtitle">Hind Siliguri</h4>
             </th>
             <th>
               <h4 className="App-subtitle">Encode Sans</h4>
@@ -169,5 +169,5 @@ const Fonts = () => {
       </table>
     </Row>;
 }
- 
+
 export default Fonts;
